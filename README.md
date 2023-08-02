@@ -3,7 +3,14 @@ This program randomly generates a character for the Shadowdark RPG, Quickstart r
 
 https://www.drivethrurpg.com/product/413713/Shadowdark-RPG-Quickstart-Set
 
-This is a commandline, text program, there is no fancy Windows GUI.
+This is a commandline, text program, there is no fancy Windows GUI. I wrote this program with Python 3.11.2, it should work fine with any 3.x version. You will need Python to run this program, Python is free and open software, it is availble for download at Python.org. My Python skills are very rusty, I wrote this in a couple of hours, with very little regard for good progrraming practices, cleaning it up is on the todo list.
+
+This is a work in progress, as I get time I will add the following fuctions;
+
+    General cleanup of the code.
+    Save characters to text file.
+    Choose between rolling 3d6 or 4d6 take the best 3.
+    Add Zero level characters as a class option.
 
 Thank you to Kelsey Dionne for creating the Shadowdark RPG, your hard work and creativity is appreciated.
 
