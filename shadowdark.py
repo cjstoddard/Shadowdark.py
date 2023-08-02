@@ -257,7 +257,7 @@ if Constitution_mod == "+4":
 if HITPOINTS < 1:
     HITPOINTS = 1
 
-# This add 2 Hit Points if character is a Dwarf
+# This adds 2 Hit Points if character is a Dwarf
 if Ancestry == "Dwarf":
     HITPOINTS = HITPOINTS + 2
     print ("+2 HP have been added for being a Dwarf")
