@@ -18,7 +18,7 @@ print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
 print (" ")
 
-# 4d6, take the best 3 for rolling ability scores
+# 4d6 take the best 3 for rolling ability scores
 def roll_ability_score():
     dice_rolls = [random.randint(1, 6) for _ in range(4)]
     return sum(sorted(dice_rolls, reverse=True)[:3])
@@ -241,13 +241,13 @@ Background = random.choice(Random_Backgrounds)
 if Constitution_mod == "-1":
     HITPOINTS = HITPOINTS - 1
 if Constitution_mod == "-2":
-     HITPOINTS = HITPOINTS - 2
+    HITPOINTS = HITPOINTS - 2
 if Constitution_mod == "-3":
-     HITPOINTS = HITPOINTS - 3
+    HITPOINTS = HITPOINTS - 3
 if Constitution_mod == "-4":
-     HITPOINTS = HITPOINTS - 4
+    HITPOINTS = HITPOINTS - 4
 if Constitution_mod == "+1":
-     HITPOINTS = HITPOINTS + 1
+    HITPOINTS = HITPOINTS + 1
 if Constitution_mod == "+2":
     HITPOINTS = HITPOINTS + 2
 if Constitution_mod == "+3":
