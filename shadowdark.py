@@ -19,14 +19,14 @@ print ("-------------------------------------------------------")
 print (" ")
 
 # 4d6 take the best 3 for rolling ability scores
-def roll_ability_score():
-    dice_rolls = [random.randint(1, 6) for _ in range(4)]
-    return sum(sorted(dice_rolls, reverse=True)[:3])
+#def roll_ability_score():
+#    dice_rolls = [random.randint(1, 6) for _ in range(4)]
+#    return sum(sorted(dice_rolls, reverse=True)[:3])
 
 # 3d6 for rolling ability scores
-# def roll_ability_score():
-#    dice_rolls = (random.randint(1, 6)
-#    return sum(dice_rolls)
+def roll_ability_score():
+    dice_rolls = [random.randint(1, 6) for _ in range(3)]
+    return sum(sorted(dice_rolls, reverse=True)[:3])
 
 # Print Ability scores
 def Print_Ability_Scores():
