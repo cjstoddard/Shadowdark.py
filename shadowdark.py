@@ -31,21 +31,11 @@ def roll_ability_score():
     return sum(sorted(dice_rolls, reverse=True)[:3])
 
 ###############################
-# Print Ability scores
-def Print_Ability_Scores():
-    print (str(Strength) + " / " + Strength_mod)
-    print (str(Dexterity) + " / " + Dexterity_mod)
-    print (str(Constitution) + " / " + Constitution_mod)
-    print (str(Intellegence) + " / " + Intellegence_mod)
-    print (str(Wisdom) + " / " + Wisdom_mod)
-    print (str(Charisma) + " / " + Charisma_mod)
-
-###############################
 # Roll ability scores
 ability_scores = [roll_ability_score() for _ in range(6)]
 
 ###############################
-# Assign Ability Score Modifiers
+# Assign Ability Scores and determines Modifiers
 Strength = (ability_scores[0])
 Dexterity = (ability_scores[1])
 Constitution = (ability_scores[2])
@@ -88,7 +78,14 @@ for count in counter:
     elif count == 5:
         Charisma_mod = temp_mod
 
-Print_Ability_Scores()
+###############################
+# Print Ability scores to screen
+print ("STR: " + str(Strength) + " / " + Strength_mod)
+print ("DEX: " + str(Dexterity) + " / " + Dexterity_mod)
+print ("CON: " + str(Constitution) + " / " + Constitution_mod)
+print ("INT: " + str(Intellegence) + " / " + Intellegence_mod)
+print ("WIS: " + str(Wisdom) + " / " + Wisdom_mod)
+print ("CHR: " + str(Charisma) + " / " + Charisma_mod)
 
 ###############################
 # Player chooses ancestry
@@ -100,35 +97,34 @@ print (" 4 Half-Orc")
 print (" 5 Halfling")
 print (" 6 Human")
 Choose_Ancestry = input ("Choose Your Ancestry? ")
+
 if Choose_Ancestry == "1":
     Ancestry = "Dwarf"
-if Choose_Ancestry == "2":
-    Ancestry = "Elf"
-if Choose_Ancestry == "3":
-    Ancestry = "Goblin"
-if Choose_Ancestry == "4":
-    Ancestry = "Half-Orc"
-if Choose_Ancestry == "5":
-    Ancestry = "Halfling"
-if Choose_Ancestry == "6":
-    Ancestry = "Human"
-
-if Ancestry == "Dwarf":
     Language = "Common and Dwarvish"
     AncestryFeature = "Stout. +2 HP at 1st level, each level there after, roll hit points with advantage."
-if Ancestry == "Elf":
+
+if Choose_Ancestry == "2":
+    Ancestry = "Elf"
     Language = "Common, Elvish, and Sylvan"
     AncestryFeature = "Farsight. Choose; +1 bonus to ranged weapon attacks or +1 bonus to spellcasting checks."
-if Ancestry == "Goblin":
+
+if Choose_Ancestry == "3":
+    Ancestry = "Goblin"
     Language = "Common and Goblin"
     AncestryFeature = "Keen Senses. Character cannot be surprised."
-if Ancestry == "Half-Orc":
+
+if Choose_Ancestry == "4":
+    Ancestry = "Half-Orc"
     Language = "Common and Orcish"
     AncestryFeature = "Mighty. +1 bonus to hit and damage with melee weapons."
-if Ancestry == "Halfling":
+
+if Choose_Ancestry == "5":
+    Ancestry = "Halfling"
     Language = "Common"
     AncestryFeature = "Stealthy. You become invisible for 3 rounds, use this ability once per day"
-if Ancestry == "Human":
+
+if Choose_Ancestry == "6":
+    Ancestry = "Human"
     Language = "Common and one additional common language."
     AncestryFeature = "Ambitious. Roll one additional on the talent table at 1st level."
 
@@ -141,19 +137,9 @@ print (" 3 Thief")
 print (" 4 Wizard")
 print (" 5 Zero Level")
 Choose_Class = input ("Chhose your Class? ")
+
 if Choose_Class == "1":
     Class = "Fighter"
-if Choose_Class == "2":
-    Class = "Priest"
-if Choose_Class == "3":
-    Class = "Thief"
-if Choose_Class == "4":
-    Class = "Wizard"
-if Choose_Class == "5":
-    Class = "Zero Level"
-
-###############################
-if Class == "Fighter":
     HITPOINTS = dice_rolls = random.randint(1, 8)
     Weapon = "Weapons: All weapons"
     Armor = "Armor: All armor and shields"
@@ -174,8 +160,8 @@ if Class == "Fighter":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attributes"
 
-###############################
-if Class == "Priest":
+if Choose_Class == "2":
+    Class = "Priest"
     HITPOINTS = random.randint(1, 6)
     Weapon = "Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer"
     Armor = "Armor: All armor and shields"
@@ -197,8 +183,8 @@ if Class == "Priest":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attributes"
 
-###############################
-if Class == "Thief":
+if Choose_Class == "3":
+    Class = "Thief"
     HITPOINTS = random.randint(1, 4)
     Weapon = "Weapons: Club, crossbow, dagger, shortbow, shortsword"
     Armor = "Armor: Leather armor, mithral chainmail"
@@ -219,8 +205,8 @@ if Class == "Thief":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to atributes"
 
-###############################
-if Class == "Wizard":
+if Choose_Class == "4":
+    Class = "Wizard"
     HITPOINTS = random.randint(1, 4)
     Weapon = "Weapons: Dagger, staff"
     Armor = "Armor: None"
@@ -242,8 +228,8 @@ if Class == "Wizard":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attribute"
 
-###############################
-if Class == "Zero Level":
+if Choose_Class == "5":
+    Class = "Zero Level"
     HITPOINTS = 0
     Weapon = "Weapons: All weapons until 1st level"
     Armor = "Armor: All armor and shields until 1st level"
@@ -279,19 +265,14 @@ if Constitution_mod == "+4":
 if HITPOINTS < 1:
     HITPOINTS = 1
 
-# This adds 2 Hit Points if character is a Dwarf
-if Ancestry == "Dwarf":
-    HITPOINTS = HITPOINTS + 2
-    print ("+2 HP have been added for being a Dwarf")
-
 ###############################
 # Prints out the finished character to the screen
 print (" ")
-Cname = input ("What is your Name? ")
+Character_name = input ("What is your characters name? ")
 print (" ")
 print ("Shadowdark Character Sheet 1.0")
 print ("------------------------------")
-print ("Character Name: " + Cname)
+print ("Character Name: " + Character_name)
 print ("Ancestry " + Ancestry)
 print ("Background: " + Background)
 print ("Character Class: " + Class)
