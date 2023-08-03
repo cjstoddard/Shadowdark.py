@@ -30,3 +30,4 @@ Class Features:
 Class Talent: +1 bonus to priest spellcasting checks
 ------------------------------
 EQUIPMENT:
+35 Gold Pieces

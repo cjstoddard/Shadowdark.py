@@ -25,8 +25,8 @@ This is a work in progress, Here is my TODO;
     ** Done ** Save characters to text file. ** Done ** 
     ** Done ** Add choosing between rolling 3d6 or 4d6 take the best 3 functionality. ** Done ** 
     ** Done ** Add Zero level characters as a class option. ** Done **
-    Generating starting gold if character is not Zero level
-    Generating random equipment for Zero level characters
+    ** Done ** Generating starting gold if character is not Zero level ** Done ** 
+    ** Done ** Generating random equipment for Zero level characters ** Done ** 
 
 Things I am not going to do:
 
@@ -39,4 +39,3 @@ Things I might do depending on my energy levels and free time:
 
     Build a GUI interface, this is a very long term goal
     Add functionality to buy starting equipment
-    

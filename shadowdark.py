@@ -21,6 +21,10 @@ def roll_3d6():
     dice_rolls = [random.randint(1, 6) for _ in range(3)]
     return sum(sorted(dice_rolls, reverse=True)[:3])
 
+def roll_2d6():
+    dice_rolls = [random.randint(1, 6) for _ in range(2)]
+    return sum(sorted(dice_rolls, reverse=True)[:2])
+
 ###############################
 # Print Legal Statement.
 print ("-------------------------------------------------------")
@@ -253,7 +257,7 @@ if Choose_Class == "5":
     ClassFeature2 = " "
     ClassFeature3 = " "
     ClassTalent = " "
-
+    
 ###############################
 # Randomly chooses background
 Random_Backgrounds = ['Urchin','Wanted', 'Cult Initiate', 'Thieves Guild', 'Banished', 'Orphaned', 'Wizards Apprentice', 'Jeweler', 'Herbalist', 'Barbarian', 'Mercenary', 'Sailor', 'Alcolyte', 'Soldier', 'Ranger', 'Scout', 'Minstrel', 'Scholar', 'Nobel', 'Chirurgeon' ]
@@ -279,6 +283,21 @@ if Constitution_mod == "+4":
     HITPOINTS = HITPOINTS + 4
 if HITPOINTS < 1:
     HITPOINTS = 1
+
+###############################
+# Generate Starting gold or random equipment for Zero level character
+if Choose_Class == "5":
+    Equipment_List = (" ")
+    Random_Equipment = ['Torch,', 'Dagger,', 'Pole,', 'Shortbow and 5 arrows,', '60 feet of Rope,', 'flask of Oil,', 'Crowbar,', 'Iron spikes x10,', 'Flint and steel,', 'Grappling hook,', 'Club,', 'Bag of Caltrops,']
+    Equipment_Count = random.randint(1, 4)
+    counter = range(Equipment_Count)
+    for count in counter:
+        Equipment_Item = random.choice(Random_Equipment)
+        Equipment_List = (Equipment_List + " " + Equipment_Item)    
+else:
+    Starting_Gold = (roll_2d6())
+    Starting_Gold = (Starting_Gold * 5)
+    Equipment_List = (str(Starting_Gold) + " Gold Pieces")
 
 ###############################
 # Prints out the finished character to the screen
@@ -315,6 +334,7 @@ print ("     " +  ClassFeature3)
 print ("Class Talent: " + ClassTalent)
 print ("------------------------------")
 print ("EQUIPMENT:")
+print (Equipment_List)
 
 ###############################
 # Write character to a text file using the character name
@@ -355,5 +375,6 @@ with open(Character_name + '.txt', 'w') as f:
     f.write ("Class Talent: " + ClassTalent + '\n')
     f.write ("------------------------------" + '\n')
     f.write ("EQUIPMENT:" + '\n')
-
+    f.write (Equipment_List)
+    
 exit()
