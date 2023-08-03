@@ -40,7 +40,7 @@ Things I am not going to do:
     Making this program compatible with any VTT
     Making the character sheet output to anything other than plain text
     Adding 3rd party ancestries or classes
-    adding more attribute generation methods
+    Adding more attribute generation methods
 
 Things I might do depending on my energy levels and free time:
 
