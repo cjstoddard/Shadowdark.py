@@ -1,0 +1,33 @@
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: Example
+Ancestry Goblin
+Background: Banished
+Character Class: Priest
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 8 / -1
+DEX: 11 / 0
+CON: 10 / 0
+INT: 13 / +1
+WIS: 14 / +2
+CHR: 8 / -1
+
+Hit Points: 2
+
+------------------------------
+Ancestry Feature: Keen Senses. Character cannot be surprised.
+Languages: Common and Goblin and you know either Celestial, Diabolic, or Primordial.
+Class Features:
+     Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer
+     Armor: All armor and shields
+     Turn Undead. You know the turn undead spell, this does not count toward your number of known spells.
+     Spellcasting. You can cast priest spells you have prepared.
+      
+      
+Class Talent: +1 bonus to priest spellcasting checks
+------------------------------
+EQUIPMENT:
