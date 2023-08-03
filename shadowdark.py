@@ -86,6 +86,11 @@ print ("CON: " + str(Constitution) + " / " + Constitution_mod)
 print ("INT: " + str(Intellegence) + " / " + Intellegence_mod)
 print ("WIS: " + str(Wisdom) + " / " + Wisdom_mod)
 print ("CHR: " + str(Charisma) + " / " + Charisma_mod)
+print (" ")
+
+YN = input ("Do you want to keep this character, Y or N? ")
+if YN == "N" or YN == "n":
+    exit()
 
 ###############################
 # Player chooses ancestry
