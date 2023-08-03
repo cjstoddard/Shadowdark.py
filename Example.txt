@@ -27,7 +27,6 @@ Class Features:
      Turn Undead. You know the turn undead spell, this does not count toward your number of known spells.
      Spellcasting. You can cast priest spells you have prepared.
       
-      
 Class Talent: +1 bonus to priest spellcasting checks
 ------------------------------
 EQUIPMENT:
