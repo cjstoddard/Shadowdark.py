@@ -17,7 +17,6 @@ print ("product published under the Shadowdark RPG Third-Party")
 print ("License and is not affiliated with The Arcane Library,")
 print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
-print ('\n')
 
 ###############################
 # 4d6 take the best 3 for rolling ability scores
@@ -89,13 +88,13 @@ for count in counter:
 
 ###############################
 # Print Ability scores to screen
+print ('\n')
 print ("STR: " + str(Strength) + " / " + Strength_mod)
 print ("DEX: " + str(Dexterity) + " / " + Dexterity_mod)
 print ("CON: " + str(Constitution) + " / " + Constitution_mod)
 print ("INT: " + str(Intellegence) + " / " + Intellegence_mod)
 print ("WIS: " + str(Wisdom) + " / " + Wisdom_mod)
 print ("CHR: " + str(Charisma) + " / " + Charisma_mod)
-print ('\n')
 
 YN = input ("Do you want to keep this character, Y or N? ")
 if YN == "N" or YN == "n":
