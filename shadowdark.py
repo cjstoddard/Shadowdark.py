@@ -17,7 +17,7 @@ print ("product published under the Shadowdark RPG Third-Party")
 print ("License and is not affiliated with The Arcane Library,")
 print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
-print (" ")
+print ('\n')
 
 ###############################
 # 4d6 take the best 3 for rolling ability scores
@@ -32,7 +32,7 @@ def roll_3d6():
 
 ###############################
 # Roll ability scores
-print (" ")
+print ('\n')
 print ("Choose which method of attribute generation you want to use:")
 print (" 1 Roll 3d6 for attributes")
 print (" 2 Roll 4d6 take the best 3 for attributes")
@@ -95,7 +95,7 @@ print ("CON: " + str(Constitution) + " / " + Constitution_mod)
 print ("INT: " + str(Intellegence) + " / " + Intellegence_mod)
 print ("WIS: " + str(Wisdom) + " / " + Wisdom_mod)
 print ("CHR: " + str(Charisma) + " / " + Charisma_mod)
-print (" ")
+print ('\n')
 
 YN = input ("Do you want to keep this character, Y or N? ")
 if YN == "N" or YN == "n":
@@ -103,7 +103,7 @@ if YN == "N" or YN == "n":
 
 ###############################
 # Player chooses ancestry
-print (" ")
+print ('\n')
 print ("Choose an Ancestry for your character:")
 print (" 1 Dwarf")
 print (" 2 Elf")
@@ -145,7 +145,7 @@ if Choose_Ancestry == "6":
 
 ###############################
 # Player chooses class
-print (" ")
+print ('\n')
 print ("Choose a Class for your character:")
 print (" 1 Fighter")
 print (" 2 Priest")
@@ -283,9 +283,9 @@ if HITPOINTS < 1:
 
 ###############################
 # Prints out the finished character to the screen
-print (" ")
+print ('\n')
 Character_name = input ("What is your characters name? ")
-print (" ")
+print ('\n')
 print ("Shadowdark Character Sheet 1.0")
 print ("------------------------------")
 print ("Character Name: " + Character_name)
@@ -295,16 +295,16 @@ print ("Character Class: " + Class)
 print ("XP:    _____")
 print ("Level: _____")
 print ("------------------------------")
-print (" ")
+print ('\n')
 print ("STR: " + str(Strength) + " / " + Strength_mod)
 print ("DEX: " + str(Dexterity) + " / " + Dexterity_mod)
 print ("CON: " + str(Constitution) + " / " + Constitution_mod)
 print ("INT: " + str(Intellegence) + " / " + Intellegence_mod)
 print ("WIS: " + str(Wisdom) + " / " + Wisdom_mod)
 print ("CHR: " + str(Charisma) + " / " + Charisma_mod)
-print (" ")
+print ('\n')
 print ("Hit Points: " + str(HITPOINTS))
-print (" ")
+print ('\n')
 print ("------------------------------")
 print ("Ancestry Feature: " + AncestryFeature)
 print ("Languages: " + Language)
@@ -326,7 +326,7 @@ if YN == "N" or YN == "n":
     exit()
 
 with open(Character_name + '.txt', 'w') as f:
-    f.write (" " + '\n')
+    f.write ('\n')
     f.write ("Shadowdark Character Sheet 1.0" + '\n')
     f.write ("------------------------------" + '\n')
     f.write ("Character Name: " + Character_name + '\n')
@@ -336,16 +336,16 @@ with open(Character_name + '.txt', 'w') as f:
     f.write ("XP:    _____" + '\n')
     f.write ("Level: _____" + '\n')
     f.write ("------------------------------" + '\n')
-    f.write (" " + '\n')
+    f.write ('\n')
     f.write ("STR: " + str(Strength) + " / " + Strength_mod + '\n')
     f.write ("DEX: " + str(Dexterity) + " / " + Dexterity_mod + '\n')
     f.write ("CON: " + str(Constitution) + " / " + Constitution_mod + '\n')
     f.write ("INT: " + str(Intellegence) + " / " + Intellegence_mod + '\n')
     f.write ("WIS: " + str(Wisdom) + " / " + Wisdom_mod + '\n')
     f.write ("CHR: " + str(Charisma) + " / " + Charisma_mod + '\n')
-    f.write (" " + '\n')
+    f.write ('\n')
     f.write ("Hit Points: " + str(HITPOINTS) + '\n')
-    f.write (" " + '\n')
+    f.write ('\n')
     f.write ("------------------------------" + '\n')
     f.write ("Ancestry Feature: " + AncestryFeature + '\n')
     f.write ("Languages: " + Language + '\n')
