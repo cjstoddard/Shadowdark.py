@@ -6,7 +6,21 @@
 ###############################
 
 ###############################
+# Import needed libraries
 import random
+
+###############################
+# Define functions
+
+# 4d6 take the best 3 for rolling ability scores
+def roll_4d6():
+    dice_rolls = [random.randint(1, 6) for _ in range(4)]
+    return sum(sorted(dice_rolls, reverse=True)[:3])
+
+# 3d6 for rolling ability scores
+def roll_3d6():
+    dice_rolls = [random.randint(1, 6) for _ in range(3)]
+    return sum(sorted(dice_rolls, reverse=True)[:3])
 
 ###############################
 # Print Legal Statement.
@@ -17,17 +31,6 @@ print ("product published under the Shadowdark RPG Third-Party")
 print ("License and is not affiliated with The Arcane Library,")
 print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
-
-###############################
-# 4d6 take the best 3 for rolling ability scores
-def roll_4d6():
-    dice_rolls = [random.randint(1, 6) for _ in range(4)]
-    return sum(sorted(dice_rolls, reverse=True)[:3])
-
-# 3d6 for rolling ability scores
-def roll_3d6():
-    dice_rolls = [random.randint(1, 6) for _ in range(3)]
-    return sum(sorted(dice_rolls, reverse=True)[:3])
 
 ###############################
 # Roll ability scores
@@ -43,7 +46,7 @@ if RollChoice == "1":
     ability_scores = [roll_3d6() for _ in range(6)]
 
 ###############################
-# Assign Ability Scores and determines Modifiers
+# Assign Ability Scores
 Strength = (ability_scores[0])
 Dexterity = (ability_scores[1])
 Constitution = (ability_scores[2])
@@ -51,6 +54,7 @@ Intellegence = (ability_scores[3])
 Wisdom = (ability_scores[4])
 Charisma = (ability_scores[5])
 
+# Determines Modifiers
 counter = range(6)
 for count in counter:
     temp = ability_scores[count]
@@ -73,6 +77,7 @@ for count in counter:
     if temp == 18:
         temp_mod = "+4"
 
+# Assign Modifiers
     if count == 0:
         Strength_mod = temp_mod
     if count == 1:
@@ -101,7 +106,7 @@ if YN == "N" or YN == "n":
     exit()
 
 ###############################
-# Player chooses ancestry
+# Ancestry Section
 print ('\n')
 print ("Choose an Ancestry for your character:")
 print (" 1 Dwarf")
@@ -143,7 +148,7 @@ if Choose_Ancestry == "6":
     AncestryFeature = "Ambitious. Roll one additional on the talent table at 1st level."
 
 ###############################
-# Player chooses class
+# Class Section
 print ('\n')
 print ("Choose a Class for your character:")
 print (" 1 Fighter")
