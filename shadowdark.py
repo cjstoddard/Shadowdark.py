@@ -11,7 +11,6 @@ import random
 
 ###############################
 # Define functions
-
 # 4d6 take the best 3 for rolling ability scores
 def roll_4d6():
     dice_rolls = [random.randint(1, 6) for _ in range(4)]
@@ -46,6 +45,7 @@ if RollChoice == "1":
     ability_scores = [roll_3d6() for _ in range(6)]
 
 ###############################
+# Sort out what number go where
 # Assign Ability Scores
 Strength = (ability_scores[0])
 Dexterity = (ability_scores[1])
