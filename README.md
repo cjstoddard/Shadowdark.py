@@ -9,6 +9,8 @@ This is a commandline, text only program, there is no fancy Windows GUI, this wi
 
 This is an offshoot project from a Basic program I wrote to make Shadowdark characters, which itself was an offshoot of a program I wrote in the early 90's for making D&D characters. I am no longer working on that code and I made the repository private, all further work in this area will be done on this project.
 
+This project is not meant to be a full fledged character manager, the sole purpose of this program is to generate 1st level characters. The use cases being quick NPC generator, pregenerated characters and lazy players. I also wanted to build a simple enough code base where even someone with no Python experience can add thier own Ancestries and Classes just by looking at the code and doing a bit of copy/paste and modify work. If you are looking for a more advanced program, I suggest https://shadowdarklings.net/ or https://www.shadowdork.com/welcome-component.
+
 Thank you to Kelsey Dionne for creating the Shadowdark RPG, your hard work and creativity is appreciated.
 
 https://www.thearcanelibrary.com/
