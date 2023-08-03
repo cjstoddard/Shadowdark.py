@@ -17,6 +17,11 @@ https://www.thearcanelibrary.com/
 
 Legal Statement: This Shadowdark Character Generator is an independent product published under the Shadowdark RPG Third-Party License and is not affiliated with The Arcane Library, LLC. Shadowdark RPG © 2023 The Arcane Library, LLC."
 
+License: This code is licensed under the Creative Commons Attribution-NonCommercial 4.0 License.
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+
 Disclaimer: This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a paticular purpose and nonifringment. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 This is a work in progress, Here is my TODO;
