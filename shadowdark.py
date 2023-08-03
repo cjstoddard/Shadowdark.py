@@ -3,6 +3,10 @@
 # By Chris Stoddard, Aug 2023 #
 # Based on the Shadowdark RPG #
 # by Arcane Library           #
+# This code is licensed under #
+# the Creative Commons        #
+# Attribution-NonCommercial   #
+# 4.0 License.                #
 ###############################
 
 ###############################
