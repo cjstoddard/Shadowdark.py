@@ -166,7 +166,6 @@ if Choose_Class == "1":
     ClassFeature1 = "Hauler. You gain additional gear slots equal to you Constitution modifier, if positive."
     ClassFeature2 = "Weapon Mastery. With one type of weapon, you gain +1 to attack and damage with that weapon type. Also, add half your level to attack and damage rolls (round down)."
     ClassFeature3 = "Grit. Choose Strength or Dexterity. You have advantage on checks based on that attribute."
-    ClassFeature4 = " "
     talent_roll = [random.randint(1, 6) for _ in range(2)]
     talent_roll_sum = sum(talent_roll)
     if talent_roll_sum == 2:
@@ -189,7 +188,6 @@ if Choose_Class == "2":
     ClassFeature1 = "Turn Undead. You know the turn undead spell, this does not count toward your number of known spells."
     ClassFeature2 = "Spellcasting. You can cast priest spells you have prepared."
     ClassFeature3 = " "
-    ClassFeature4 = " "
     talent_roll = [random.randint(1, 6) for _ in range(2)]
     talent_roll_sum = sum(talent_roll)
     if talent_roll_sum == 2:
@@ -211,7 +209,6 @@ if Choose_Class == "3":
     ClassFeature1 = "Backstab. On successful attack roll, If the target is unaware of your attack, you deal an extra die of damage and an additional die of damage equal to half your level (round down)."
     ClassFeature2 = "Thievery. You are trained thieving skills and have can carry the necessary tools at no equipment slot cost."
     ClassFeature3 = "You are adept in the skills associated with thievery, you have advantage on any associated checks"
-    ClassFeature4 = " "
     talent_roll = [random.randint(1, 6) for _ in range(2)]
     talent_roll_sum = sum(talent_roll)
     if talent_roll_sum == 2:
@@ -234,7 +231,6 @@ if Choose_Class == "4":
     ClassFeature1 = "Learning Spells. You can learn new wizard spells from a scroll by studying it for a day and succeeding on a DC 15 INT check."
     ClassFeature2 = "Spellcasting. You can cast wizard spells you have prepared."
     ClassFeature3 = " "
-    ClassFeature4 = " "
     talent_roll = [random.randint(1, 6) for _ in range(2)]
     talent_roll_sum = sum(talent_roll)
     if talent_roll_sum == 2:
@@ -256,7 +252,6 @@ if Choose_Class == "5":
     ClassFeature1 = "Beginner's luck, you can wield any and all equipment until 1st level."
     ClassFeature2 = " "
     ClassFeature3 = " "
-    ClassFeature4 = " "
     ClassTalent = " "
 
 ###############################
@@ -317,7 +312,6 @@ print ("     " +  Armor)
 print ("     " +  ClassFeature1)
 print ("     " +  ClassFeature2)
 print ("     " +  ClassFeature3)
-print ("     " +  ClassFeature4)
 print ("Class Talent: " + ClassTalent)
 print ("------------------------------")
 print ("EQUIPMENT:")
@@ -358,7 +352,6 @@ with open(Character_name + '.txt', 'w') as f:
     f.write ("     " +  ClassFeature1 + '\n')
     f.write ("     " +  ClassFeature2 + '\n')
     f.write ("     " +  ClassFeature3 + '\n')
-    f.write ("     " +  ClassFeature4 + '\n')
     f.write ("Class Talent: " + ClassTalent + '\n')
     f.write ("------------------------------" + '\n')
     f.write ("EQUIPMENT:" + '\n')
