@@ -152,7 +152,7 @@ print (" 2 Priest")
 print (" 3 Thief")
 print (" 4 Wizard")
 print (" 5 Zero Level")
-Choose_Class = input ("Chhose your Class? ")
+Choose_Class = input ("Choose your Class? ")
 
 if Choose_Class == "1":
     Class = "Fighter"
