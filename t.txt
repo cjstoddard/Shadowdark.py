@@ -1,0 +1,33 @@
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: t
+Ancestry Dwarf
+Background: Soldier
+Character Class: Fighter
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 14 / +2
+DEX: 7 / -2
+CON: 8 / -1
+INT: 10 / 0
+WIS: 6 / -2
+CHR: 8 / -1
+
+Hit Points: 6
+
+------------------------------
+Ancestry Feature: Stout. +2 HP at 1st level, each level there after, roll hit points with advantage.
+Languages: Common and Dwarvish
+Class Features:
+     Weapons: All weapons
+     Armor: All armor and shields
+     Hauler. You gain additional gear slots equal to you Constitution modifier, if positive.
+     Weapon Mastery. With one type of weapon, you gain +1 to attack and damage with that weapon type. Also, add half your level to attack and damage rolls (round down).
+     Grit. Choose Strength or Dexterity. You have advantage on checks based on that attribute.
+      
+Class Talent: +1 bonus to melee and ranged attacks
+------------------------------
+EQUIPMENT:
