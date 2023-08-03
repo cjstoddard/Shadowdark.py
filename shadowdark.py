@@ -1,13 +1,14 @@
-# ************************************
-# ** Shadowsdark.py 1.0             **
-# ** By Chris Stoddard, Aug 2023    **
-# ** Based on the Shadowdark RPG    **
-# ** by Kelsey Dionne and           **
-# ** Arcane Library                 **
-# ************************************
+###############################
+# Shadowsdark.py 1.0          #
+# By Chris Stoddard, Aug 2023 #
+# Based on the Shadowdark RPG #
+# by Arcane Library           #
+###############################
 
+###############################
 import random
 
+###############################
 # Print Legal Statement.
 print ("-------------------------------------------------------")
 print ("Legal Statement:")
@@ -18,6 +19,7 @@ print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
 print (" ")
 
+###############################
 # 4d6 take the best 3 for rolling ability scores
 # def roll_ability_score():
 #    dice_rolls = [random.randint(1, 6) for _ in range(4)]
@@ -28,6 +30,7 @@ def roll_ability_score():
     dice_rolls = [random.randint(1, 6) for _ in range(3)]
     return sum(sorted(dice_rolls, reverse=True)[:3])
 
+###############################
 # Print Ability scores
 def Print_Ability_Scores():
     print (str(Strength) + " / " + Strength_mod)
@@ -37,9 +40,11 @@ def Print_Ability_Scores():
     print (str(Wisdom) + " / " + Wisdom_mod)
     print (str(Charisma) + " / " + Charisma_mod)
 
+###############################
 # Roll ability scores
 ability_scores = [roll_ability_score() for _ in range(6)]
 
+###############################
 # Assign Ability Score Modifiers
 Strength = (ability_scores[0])
 Dexterity = (ability_scores[1])
@@ -85,7 +90,7 @@ for count in counter:
 
 Print_Ability_Scores()
 
-######################
+###############################
 # Player chooses ancestry
 print (" ")
 print (" 1 Dwarf")
@@ -127,13 +132,14 @@ if Ancestry == "Human":
     Language = "Common and one additional common language."
     AncestryFeature = "Ambitious. Roll one additional on the talent table at 1st level."
 
-#####################    
+###############################
 # Player chooses class
 print (" ")
 print (" 1 Fighter")
 print (" 2 Priest")
 print (" 3 Thief")
 print (" 4 Wizard")
+print (" 5 Zero Level")
 Choose_Class = input ("Chhose your Class? ")
 if Choose_Class == "1":
     Class = "Fighter"
@@ -143,7 +149,10 @@ if Choose_Class == "3":
     Class = "Thief"
 if Choose_Class == "4":
     Class = "Wizard"
+if Choose_Class == "5":
+    Class = "Zero Level"
 
+###############################
 if Class == "Fighter":
     HITPOINTS = dice_rolls = random.randint(1, 8)
     Weapon = "Weapons: All weapons"
@@ -165,6 +174,7 @@ if Class == "Fighter":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attributes"
 
+###############################
 if Class == "Priest":
     HITPOINTS = random.randint(1, 6)
     Weapon = "Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer"
@@ -187,6 +197,7 @@ if Class == "Priest":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attributes"
 
+###############################
 if Class == "Thief":
     HITPOINTS = random.randint(1, 4)
     Weapon = "Weapons: Club, crossbow, dagger, shortbow, shortsword"
@@ -207,7 +218,8 @@ if Class == "Thief":
         ClassTalent = "+1 bonus to melee and ranged attacks"
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to atributes"
-        
+
+###############################
 if Class == "Wizard":
     HITPOINTS = random.randint(1, 4)
     Weapon = "Weapons: Dagger, staff"
@@ -230,14 +242,24 @@ if Class == "Wizard":
     if talent_roll_sum == 12:
         ClassTalent = "Choose a talent or +2 points to distribute to attribute"
 
-######################
-# Randomly chooses background
+###############################
+if Class == "Zero Level":
+    HITPOINTS = 0
+    Weapon = "Weapons: All weapons until 1st level"
+    Armor = "Armor: All armor and shields until 1st level"
+    ClassFeature1 = "Beginner's luck, you can wield any and all equipment until 1st level."
+    ClassFeature2 = " "
+    ClassFeature3 = " "
+    ClassFeature4 = " "
+    ClassTalent = " "
 
+###############################
+# Randomly chooses background
 Random_Backgrounds = ['Urchin','Wanted', 'Cult Initiate', 'Thieves Guild', 'Banished', 'Orphaned', 'Wizards Apprentice', 'Jeweler', 'Herbalist', 'Barbarian', 'Mercenary', 'Sailor', 'Alcolyte', 'Soldier', 'Ranger', 'Scout', 'Minstrel', 'Scholar', 'Nobel', 'Chirurgeon' ]
 Background = random.choice(Random_Backgrounds)
 
-######################
-# Fix hit Points :
+###############################
+# Modify hit Points by Constitution
 if Constitution_mod == "-1":
     HITPOINTS = HITPOINTS - 1
 if Constitution_mod == "-2":
@@ -262,7 +284,7 @@ if Ancestry == "Dwarf":
     HITPOINTS = HITPOINTS + 2
     print ("+2 HP have been added for being a Dwarf")
 
-######################
+###############################
 # Prints out the finished character to the screen
 print (" ")
 Cname = input ("What is your Name? ")
@@ -299,3 +321,5 @@ print ("     " +  ClassFeature4)
 print ("Class Talent: " + ClassTalent)
 print ("------------------------------")
 print ("EQUIPMENT:")
+
+###############################

@@ -17,9 +17,9 @@ Legal Statement: This Shadowdark Character Generator is an independent product p
 
 Disclaimer: This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a paticular purpose and nonifringment. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
-This is a work in progress, as I get time I will add the following fuctions;
+This is a work in progress, Here is my TODO;
 
     General cleanup of the code.
     Save characters to text file.
     Add choosing between rolling 3d6 or 4d6 take the best 3 functionality.
-    Add Zero level characters as a class option.
+    ** Done ** Add Zero level characters as a class option. ** Done **
