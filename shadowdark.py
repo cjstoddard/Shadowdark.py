@@ -25,6 +25,7 @@ def roll_3d6():
     dice_rolls = [random.randint(1, 6) for _ in range(3)]
     return sum(sorted(dice_rolls, reverse=True)[:3])
 
+# Rolls 2d6 for various purposes
 def roll_2d6():
     dice_rolls = [random.randint(1, 6) for _ in range(2)]
     return sum(sorted(dice_rolls, reverse=True)[:2])
