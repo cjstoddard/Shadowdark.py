@@ -21,18 +21,27 @@ print (" ")
 
 ###############################
 # 4d6 take the best 3 for rolling ability scores
-# def roll_ability_score():
-#    dice_rolls = [random.randint(1, 6) for _ in range(4)]
-#    return sum(sorted(dice_rolls, reverse=True)[:3])
+def roll_4d6():
+    dice_rolls = [random.randint(1, 6) for _ in range(4)]
+    return sum(sorted(dice_rolls, reverse=True)[:3])
 
 # 3d6 for rolling ability scores
-def roll_ability_score():
+def roll_3d6():
     dice_rolls = [random.randint(1, 6) for _ in range(3)]
     return sum(sorted(dice_rolls, reverse=True)[:3])
 
 ###############################
 # Roll ability scores
-ability_scores = [roll_ability_score() for _ in range(6)]
+print (" ")
+print ("Choose which method of attribute generation you want to use:")
+print (" 1 Roll 3d6 for attributes")
+print (" 2 Roll 4d6 take the best 3 for attributes")
+
+RollChoice = input ("? ")
+if RollChoice == "2":
+    ability_scores = [roll_4d6() for _ in range(6)]    
+if RollChoice == "1":
+    ability_scores = [roll_3d6() for _ in range(6)]
 
 ###############################
 # Assign Ability Scores and determines Modifiers
@@ -48,34 +57,34 @@ for count in counter:
     temp = ability_scores[count]
     if temp == 3:
         temp_mod = "-4"
-    elif temp == 4 or temp == 5:
+    if temp == 4 or temp == 5:
         temp_mod = "-3"
-    elif temp == 6 or temp == 7:
+    if temp == 6 or temp == 7:
         temp_mod = "-2"
-    elif temp == 8 or temp == 9:
+    if temp == 8 or temp == 9:
         temp_mod = "-1"
-    elif temp == 10 or temp == 11:
+    if temp == 10 or temp == 11:
         temp_mod = "0"
-    elif temp == 12 or temp == 13:
+    if temp == 12 or temp == 13:
         temp_mod = "+1"
-    elif temp == 14 or temp == 15:
+    if temp == 14 or temp == 15:
         temp_mod = "+2"
-    elif temp == 16 or temp == 17:
+    if temp == 16 or temp == 17:
         temp_mod = "+3"
-    elif temp == 18:
+    if temp == 18:
         temp_mod = "+4"
 
     if count == 0:
         Strength_mod = temp_mod
-    elif count == 1:
+    if count == 1:
         Dexterity_mod = temp_mod
-    elif count == 2:
+    if count == 2:
         Constitution_mod = temp_mod
-    elif count == 3:
+    if count == 3:
         Intellegence_mod = temp_mod
-    elif count == 4:
+    if count == 4:
         Wisdom_mod = temp_mod
-    elif count == 5:
+    if count == 5:
         Charisma_mod = temp_mod
 
 ###############################
@@ -95,6 +104,7 @@ if YN == "N" or YN == "n":
 ###############################
 # Player chooses ancestry
 print (" ")
+print ("Choose an Ancestry for your character:")
 print (" 1 Dwarf")
 print (" 2 Elf")
 print (" 3 Goblin")
@@ -136,6 +146,7 @@ if Choose_Ancestry == "6":
 ###############################
 # Player chooses class
 print (" ")
+print ("Choose a Class for your character:")
 print (" 1 Fighter")
 print (" 2 Priest")
 print (" 3 Thief")
