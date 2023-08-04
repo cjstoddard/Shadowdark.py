@@ -3,7 +3,9 @@ This program randomly generates a character for the Shadowdark RPG, Quickstart r
 
 https://www.drivethrurpg.com/product/413713/Shadowdark-RPG-Quickstart-Set
 
-I wrote this program with Python 3.11.2, it should work fine with any 3.x version, I will probably ignore the problem if it doesn't work on versions of Python other than what I am using. You will need Python to run this program, Python is free and open software, it is availble for download at Python.org.
+I wrote this program with Python 3.11.2, it should work fine with any 3.x version, I will probably ignore the problem if it doesn't work on versions of Python other than what I am using. You will need Python to run this program, Python is free and open software, it is availble for download at Python.org. If you are not familar with Python, here is a quick guide on getting it installed in Windows. If you use Linux or Mac OS, it is already installed.
+
+https://www.howtogeek.com/197947/how-to-install-python-on-windows/
 
 This is a commandline, text only program, there is no fancy Windows GUI, this will not change anytime soon. My Python skills are rusty, I wrote this in a couple of hours, with no regard for good progrraming practices, cleaning it up is on the todo list.
 
