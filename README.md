@@ -13,6 +13,8 @@ This is an offshoot project from a Basic program I wrote to make Shadowdark char
 
 This project is not meant to be a full fledged character manager, the sole purpose of this program is to generate 1st level characters. The use cases being quick NPC generator, pregenerated characters and lazy players. I also wanted to build a simple enough code base where even someone with no Python experience can add thier own Ancestries and Classes just by looking at the code and doing a bit of copy/paste and modify work. If you are looking for a more advanced program, I suggest https://shadowdarklings.net/ or https://www.shadowdork.com/welcome-component.
 
+I was going to add functionality to the program to generate 4 random Zero level characters for Gauntlet style play, but I decided it was just easier to break that out into a seperate program. When run, the program will ask you the name of the file you want to save your Zero level characters to and how many you wish to generate. This program does not care if the character has at least one attribute above 14 or not, my suggestion is to have it create double the number of characters you need for your game and then choose the ones you want use.
+
 Thank you to Kelsey Dionne for creating the Shadowdark RPG, your hard work and creativity is appreciated.
 
 https://www.thearcanelibrary.com/
@@ -36,7 +38,6 @@ This is a work in progress, Here is my TODO;
     ** Done ** Add Zero level characters as a class option.
     ** Done ** Generating starting gold if character is not Zero level.
     ** Done ** Generating random equipment for Zero level characters.
-    Add creating 4 completely random Zero level characters.
     ** Done ** Add Alignments
     
 Things I am not going to do:
@@ -49,5 +50,4 @@ Things I am not going to do:
 
 Things I might do depending on my energy levels and free time:
 
-    Build a GUI interface, this is a very long term goal.
     Add functionality to buy starting equipment.
