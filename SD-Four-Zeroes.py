@@ -31,11 +31,11 @@ print ("LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.")
 print ("-------------------------------------------------------")
 
 Character_Number = input ("How many Zero level charcters would you like? ")
-Character_name = input ("Name the file to save your characters to? ")
+File_name = input ("Name the file to save your characters to? ")
 print ("Generating 4 Zero level characters.")
 print (".....")
 
-with open(Character_name + '.txt', 'w') as f:
+with open(File_name + '.txt', 'w') as f:
 
     Counting_Characters = range(int(Character_Number))
 
