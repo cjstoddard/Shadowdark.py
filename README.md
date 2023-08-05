@@ -44,6 +44,7 @@ Things I am not going to do:
     Making the character sheet output to anything other than plain text.
     Adding 3rd party ancestries or classes.
     Adding more attribute generation methods.
+    Add Alignments
 
 Things I might do depending on my energy levels and free time:
 
