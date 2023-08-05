@@ -124,7 +124,7 @@ print (" 3 Goblin")
 print (" 4 Half-Orc")
 print (" 5 Halfling")
 print (" 6 Human")
-Choose_Ancestry = input ("Choose Your Ancestry? ")
+Choose_Ancestry = input ("? ")
 
 if Choose_Ancestry == "1":
     Ancestry = "Dwarf"
@@ -165,7 +165,7 @@ print (" 2 Priest")
 print (" 3 Thief")
 print (" 4 Wizard")
 print (" 5 Zero Level")
-Choose_Class = input ("Choose your Class? ")
+Choose_Class = input ("? ")
 
 if Choose_Class == "1":
     Class = "Fighter"
@@ -265,6 +265,24 @@ Random_Backgrounds = ['Urchin','Wanted', 'Cult Initiate', 'Thieves Guild', 'Bani
 Background = random.choice(Random_Backgrounds)
 
 ###############################
+# Choose Alignment
+print ('\n')
+print ("Choose an Alignment for your character:")
+print (" 1 Chaotic")
+print (" 2 Lawful")
+print (" 3 Neutral")
+Choose_Alignment = input ("? ")
+
+if Choose_Alignment == "1":
+    Alignment = "Chaotic"
+
+if Choose_Alignment == "2":
+    Alignment = "Lawful"
+
+if Choose_Alignment == "3":
+    Alignment = "Neutral"
+    
+###############################
 # Modify hit Points by Constitution
 if Constitution_mod == "-1":
     HITPOINTS = HITPOINTS - 1
@@ -310,6 +328,8 @@ print ("------------------------------")
 print ("Character Name: " + Character_name)
 print ("Ancestry " + Ancestry)
 print ("Background: " + Background)
+print ("Alignment: " + Alignment)
+print ("Deity: _______________________")
 print ("Character Class: " + Class)
 print ("XP:    _____")
 print ("Level: _____")
@@ -350,6 +370,8 @@ with open(Character_name + '.txt', 'w') as f:
     f.write ("Character Name: " + Character_name + '\n')
     f.write ("Ancestry " + Ancestry + '\n')
     f.write ("Background: " + Background + '\n')
+    f.write ("Alignment: " + Alignment + '\n')
+    f.write ("Deity: _______________________" + '\n')
     f.write ("Character Class: " + Class + '\n')
     f.write ("XP:    _____" + '\n')
     f.write ("Level: _____" + '\n')
