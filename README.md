@@ -37,7 +37,7 @@ This is a work in progress, Here is my TODO;
     ** Done ** Generating starting gold if character is not Zero level.
     ** Done ** Generating random equipment for Zero level characters.
     Add creating 4 completely random Zero level characters.
-    Add Alignments
+    ** Done ** Add Alignments
     
 Things I am not going to do:
 
