@@ -169,7 +169,7 @@ Choose_Class = input ("? ")
 
 if Choose_Class == "1":
     Class = "Fighter"
-    HITPOINTS = dice_rolls = random.randint(1, 8)
+    HITPOINTS = random.randint(1, 8)
     Weapon = "Weapons: All weapons"
     Armor = "Armor: All armor and shields"
     ClassFeature1 = "Hauler. You gain additional gear slots equal to you Constitution modifier, if positive."
