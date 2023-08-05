@@ -258,6 +258,27 @@ if Choose_Class == "5":
     ClassFeature2 = " "
     ClassFeature3 = " "
     ClassTalent = " "
+
+###############################
+# Modify hit Points by Constitution
+if Constitution_mod == "-1":
+    HITPOINTS = HITPOINTS - 1
+if Constitution_mod == "-2":
+    HITPOINTS = HITPOINTS - 2
+if Constitution_mod == "-3":
+    HITPOINTS = HITPOINTS - 3
+if Constitution_mod == "-4":
+    HITPOINTS = HITPOINTS - 4
+if Constitution_mod == "+1":
+    HITPOINTS = HITPOINTS + 1
+if Constitution_mod == "+2":
+    HITPOINTS = HITPOINTS + 2
+if Constitution_mod == "+3":
+    HITPOINTS = HITPOINTS + 3
+if Constitution_mod == "+4":
+    HITPOINTS = HITPOINTS + 4
+if HITPOINTS < 1:
+    HITPOINTS = 1
     
 ###############################
 # Randomly chooses background
@@ -282,27 +303,6 @@ if Choose_Alignment == "2":
 if Choose_Alignment == "3":
     Alignment = "Neutral"
     
-###############################
-# Modify hit Points by Constitution
-if Constitution_mod == "-1":
-    HITPOINTS = HITPOINTS - 1
-if Constitution_mod == "-2":
-    HITPOINTS = HITPOINTS - 2
-if Constitution_mod == "-3":
-    HITPOINTS = HITPOINTS - 3
-if Constitution_mod == "-4":
-    HITPOINTS = HITPOINTS - 4
-if Constitution_mod == "+1":
-    HITPOINTS = HITPOINTS + 1
-if Constitution_mod == "+2":
-    HITPOINTS = HITPOINTS + 2
-if Constitution_mod == "+3":
-    HITPOINTS = HITPOINTS + 3
-if Constitution_mod == "+4":
-    HITPOINTS = HITPOINTS + 4
-if HITPOINTS < 1:
-    HITPOINTS = 1
-
 ###############################
 # Generate Starting gold or random equipment for Zero level character
 if Choose_Class == "5":
