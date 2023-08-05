@@ -1,0 +1,152 @@
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: _____________ 
+Ancestry Halfling
+Background: Wanted
+Alignment: Chaotic
+Deity: _______________________
+Character Class: Zero level
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 13 / +1
+DEX: 9 / -1
+CON: 8 / -1
+INT: 8 / -1
+WIS: 9 / -1
+CHR: 15 / +2
+
+Hit Points: 1
+
+------------------------------
+Ancestry Feature: Stealthy. You become invisible for 3 rounds, use this ability once per day
+Languages: Common
+Class Features:
+     Weapons: All weapons until 1st level.
+     Armor: All armor and shields until 1st level.
+     Beginner's luck, you can wield any and all equipment until 1st level.
+
+------------------------------
+EQUIPMENT:
+
+  Bag of Caltrops, 60 feet of Rope, 60 feet of Rope, Shortbow and 5 arrows,
+
+
+
+==============================
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: _____________ 
+Ancestry Human
+Background: Chirurgeon
+Alignment: Lawful
+Deity: _______________________
+Character Class: Zero level
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 11 / 0
+DEX: 13 / +1
+CON: 10 / 0
+INT: 8 / -1
+WIS: 11 / 0
+CHR: 8 / -1
+
+Hit Points: 1
+
+------------------------------
+Ancestry Feature: Ambitious. Roll one additional on the talent table at 1st level.
+Languages: Common and one additional common language.
+Class Features:
+     Weapons: All weapons until 1st level.
+     Armor: All armor and shields until 1st level.
+     Beginner's luck, you can wield any and all equipment until 1st level.
+
+------------------------------
+EQUIPMENT:
+
+  Bag of Caltrops, Bag of Caltrops, Flint and steel,
+
+
+
+==============================
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: _____________ 
+Ancestry Elf
+Background: Urchin
+Alignment: Chaotic
+Deity: _______________________
+Character Class: Zero level
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 9 / -1
+DEX: 14 / +2
+CON: 10 / 0
+INT: 7 / -2
+WIS: 8 / -1
+CHR: 15 / +2
+
+Hit Points: 1
+
+------------------------------
+Ancestry Feature: Farsight. Choose; +1 bonus to ranged weapon attacks or +1 bonus to spellcasting checks.
+Languages: Common, Elvish, and Sylvan
+Class Features:
+     Weapons: All weapons until 1st level.
+     Armor: All armor and shields until 1st level.
+     Beginner's luck, you can wield any and all equipment until 1st level.
+
+------------------------------
+EQUIPMENT:
+
+  Bag of Caltrops, flask of Oil, Torch,
+
+
+
+==============================
+
+Shadowdark Character Sheet 1.0
+------------------------------
+Character Name: _____________ 
+Ancestry Goblin
+Background: Minstrel
+Alignment: Lawful
+Deity: _______________________
+Character Class: Zero level
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 9 / -1
+DEX: 10 / 0
+CON: 10 / 0
+INT: 11 / 0
+WIS: 16 / +3
+CHR: 14 / +2
+
+Hit Points: 1
+
+------------------------------
+Ancestry Feature: Keen Senses. Character cannot be surprised.
+Languages: Common and Goblin
+Class Features:
+     Weapons: All weapons until 1st level.
+     Armor: All armor and shields until 1st level.
+     Beginner's luck, you can wield any and all equipment until 1st level.
+
+------------------------------
+EQUIPMENT:
+
+  Pole, Bag of Caltrops,
+
+
+
+==============================

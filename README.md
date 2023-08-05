@@ -43,6 +43,7 @@ Things I am not going to do:
 
     Making this program compatible with any VTT.
     Making the character sheet output to anything other than plain text.
+    Making the program a character manager.
     Adding 3rd party ancestries or classes.
     Adding more attribute generation methods.
 
