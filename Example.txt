@@ -4,6 +4,8 @@ Shadowdark Character Sheet 1.0
 Character Name: Example
 Ancestry Goblin
 Background: Banished
+Alignment: Chaotic
+Deity: _______________________
 Character Class: Priest
 XP:    _____
 Level: _____
