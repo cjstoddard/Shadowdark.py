@@ -32,8 +32,8 @@ print ("-------------------------------------------------------")
 
 Character_Number = input ("How many Zero level charcters would you like? ")
 File_name = input ("Name the file to save your characters to? ")
-print ("Generating 4 Zero level characters.")
-print (".....")
+print ("Generating " + Character_Number + " Zero level characters.")
+print ('....')
 
 with open(File_name + '.txt', 'w') as f:
 
