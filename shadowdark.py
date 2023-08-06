@@ -323,7 +323,7 @@ else:
 print ('\n')
 Character_name = input ("What is your characters name? ")
 print ('\n')
-print ("Shadowdark Character Sheet 1.0")
+print ("Shadowdark Character Sheet 1.1")
 print ("------------------------------")
 print ("Character Name: " + Character_name)
 print ("Ancestry " + Ancestry)
@@ -365,7 +365,7 @@ if YN == "N" or YN == "n":
 
 with open(Character_name + '.txt', 'w') as f:
     f.write ('\n')
-    f.write ("Shadowdark Character Sheet 1.0" + '\n')
+    f.write ("Shadowdark Character Sheet 1.1" + '\n')
     f.write ("------------------------------" + '\n')
     f.write ("Character Name: " + Character_name + '\n')
     f.write ("Ancestry " + Ancestry + '\n')
