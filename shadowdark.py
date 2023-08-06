@@ -1,5 +1,5 @@
 ###############################
-# Shadowsdark.py 1.0          #
+# Shadowsdark.py 1.1          #
 # By Chris Stoddard, Aug 2023 #
 # Based on the Shadowdark RPG #
 # by Arcane Library           #
