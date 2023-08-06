@@ -151,7 +151,7 @@ with open(File_name + '.txt', 'w') as f:
         ###############################
         # Generate random equipment for Zero level character
         Equipment_List = (" ")
-        Random_Equipment = ['Torch,', 'Dagger,', 'Pole,', 'Shortbow and 5 arrows,', '60 feet of Rope,', 'flask of Oil,', 'Crowbar,', 'Iron spikes x10,', 'Flint and steel,', 'Grappling hook,', 'Club,', 'Bag of Caltrops,']
+        Random_Equipment = ['Torch,', 'Dagger,', 'Pole,', 'Shortbow and 5 arrows,', '60 Feet of rope,', 'flask of oil,', 'Crowbar,', 'Iron spikes x10,', 'Flint and steel,', 'Grappling hook,', 'Club,', 'Bag of caltrops,']
         Equipment_Count = random.randint(1, 4)
         counter = range(Equipment_Count)
         for count in counter:
