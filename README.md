@@ -1,6 +1,7 @@
 # Shadowdark.py
 
 shadowdark.py walks you through generating a single character.
+
 SD-Four-Zeroes.py generates random Zero Level characters in bulk.
 
 These programs generate characters for the Shadowdark RPG, the quickstart rules are availble at;
