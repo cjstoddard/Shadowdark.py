@@ -307,7 +307,7 @@ if Choose_Alignment == "3":
 # Generate Starting gold or random equipment for Zero level character
 if Choose_Class == "5":
     Equipment_List = (" ")
-    Random_Equipment = ['Torch,', 'Dagger,', 'Pole,', 'Shortbow and 5 arrows,', '60 feet of Rope,', 'flask of Oil,', 'Crowbar,', 'Iron spikes x10,', 'Flint and steel,', 'Grappling hook,', 'Club,', 'Bag of Caltrops,']
+    Random_Equipment = ['Torch,', 'Dagger,', 'Pole,', 'Shortbow and 5 arrows,', '60 Feet of Rope,', 'Flask of Oil,', 'Crowbar,', 'Iron spikes x10,', 'Flint and steel,', 'Grappling hook,', 'Club,', 'Bag of Caltrops,']
     Equipment_Count = random.randint(1, 4)
     counter = range(Equipment_Count)
     for count in counter:
