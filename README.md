@@ -37,19 +37,6 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 Disclaimer: This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a paticular purpose and nonifringment. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
-This is a work in progress, Here is my TODO;
+If Python is not your thing and you want a stand alone program, I have ported the program to C++ and compiled it for Windows 10/11. Both the binary and the source code is available here;
 
-    ** Done ** Save characters to text file.
-    ** Done ** Add choosing between rolling 3d6 or 4d6 take the best 3 functionality.
-    ** Done ** Add Zero level characters as a class option.
-    ** Done ** Generating starting gold if character is not Zero level.
-    ** Done ** Generating random equipment for Zero level characters.
-    ** Done ** Add Alignments
-    
-Things I am not going to do:
-
-    Making this program compatible with any VTT.
-    Making the character sheet output to anything other than plain text.
-    Making the program a character manager.
-    Adding 3rd party ancestries or classes.
-    Adding more attribute generation methods.
+https://github.com/cjstoddard/Shadowdark.cpp
