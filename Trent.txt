@@ -1,0 +1,35 @@
+
+Shadowdark Character Sheet 1.1
+------------------------------
+Character Name: Trent
+Ancestry Elf
+Background: Scout
+Alignment: Neutral
+Deity: _______________________
+Character Class: Thief
+XP:    _____
+Level: _____
+------------------------------
+
+STR: 10 / 0
+DEX: 13 / +1
+CON: 13 / +1
+INT: 4 / -3
+WIS: 10 / 0
+CHR: 17 / +3
+
+Hit Points: 4
+
+------------------------------
+Ancestry Feature: Farsight. Choose; +1 bonus to ranged weapon attacks or +1 bonus to spellcasting checks.
+Languages: Common, Elvish, and Sylvan
+Class Features:
+     Weapons: Club, crossbow, dagger, shortbow, shortsword
+     Armor: Leather armor, mithral chainmail
+     Backstab. On successful attack roll, If the target is unaware of your attack, you deal an extra die of damage and an additional die of damage equal to half your level (round down).
+     Thievery. You are trained thieving skills and have can carry the necessary tools at no equipment slot cost.
+     You are adept in the skills associated with thievery, you have advantage on any associated checks
+Class Talent: +1 bonus to melee and ranged attacks
+------------------------------
+EQUIPMENT:
+60 Gold Pieces
